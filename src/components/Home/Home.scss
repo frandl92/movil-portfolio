@@ -1,0 +1,56 @@
+.home-page {
+  display: flex;
+  margin: 0 3em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  .text-zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.8em;
+
+    h1 {
+      color: #d4a373;
+      padding-top: 1em;
+      font-weight: 400;
+    }
+    h2 {
+      color: #023047;
+      font-size: 15px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+      color: #023047;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      text-decoration: none;
+      margin-top: 2em;
+      padding: 10px 18px;
+      border: 1px solid #023047;
+      animation: fadeIn 2s 2s backwards;
+      white-space: nowrap;
+
+      &:hover {
+        background: #ffd700;
+        color: #333;
+      }
+    }
+  }
+
+  .franIntro {
+    img {
+      height: 20em;
+      width: 20em;
+      animation: fadeIn 1s 2s backwards;
+    }
+  }
+}
